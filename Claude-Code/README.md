@@ -15,7 +15,7 @@ npm install -g @anthropic-ai/claude-code
 /init : This command will analyse and create claude.md file. this is basically all the information which is required or kind of memery for claude to run.
 ```
 ### Some notable commands:
-```
+```npm
 /help: to see all the available commands.
 /clear: to clear the context window
 /compact: clear the history but keep the summary. so that we continue to work and utilizing less context window/tokens.
@@ -30,7 +30,7 @@ add and commit: can use this to add and commit the changes to the Github. it wil
 2. CLAUDE.local.md -> This is your local configuration/setting which you do not want to share to other developers.
 3. ~/.claude/CLAUDE.md -> This is kind of global setting which you want claude to know/follow for all the projects in your system
 
-![alt text](img/claude-md-types.png)
+![alt text](../img/claude-md-types.png)
 
 ```
 Note: We can manually update the CLAUDE.md file if we want to add any extra information. or this can be done from the claude cli command to add into the memory. using # like below:
@@ -38,7 +38,7 @@ Note: We can manually update the CLAUDE.md file if we want to add any extra info
 # always use uv to run the server do not use pip directly.
 ```
 This will prompt where to save this like below:
-![alt text](img/update-memory.png)
+![alt text](../img/update-memory.png)
 
 
 ## Updating or adding new code to the Solution
